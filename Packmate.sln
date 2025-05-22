@@ -23,7 +23,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserService", "UserService"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackingService", "PackingService", "{F95E3DDB-92C4-4B6B-BF63-8CE9F33A2A09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService.API", "services\TripService\TripService.API\TripService.API.csproj", "{8949082C-11D7-47EC-9038-8AD04961DE6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService.Application", "services\TripService\TripService.Application\TripService.Application.csproj", "{2B514585-DBB6-4B2C-A602-8CBD976C3D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService.Domain", "services\TripService\TripService.Domain\TripService.Domain.csproj", "{71A27E22-5CBA-46E3-B64B-D213E7DFCBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService.Infrastructure", "services\TripService\TripService.Infrastructure\TripService.Infrastructure.csproj", "{A1DB06AA-3FE1-465F-884E-DFBF094747D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService.Shared", "services\TripService\TripService.Shared\TripService.Shared.csproj", "{020C7395-E82B-41E1-B693-4F6E6605DB90}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8949082C-11D7-47EC-9038-8AD04961DE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8949082C-11D7-47EC-9038-8AD04961DE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8949082C-11D7-47EC-9038-8AD04961DE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8949082C-11D7-47EC-9038-8AD04961DE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B514585-DBB6-4B2C-A602-8CBD976C3D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B514585-DBB6-4B2C-A602-8CBD976C3D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B514585-DBB6-4B2C-A602-8CBD976C3D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B514585-DBB6-4B2C-A602-8CBD976C3D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A27E22-5CBA-46E3-B64B-D213E7DFCBEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A27E22-5CBA-46E3-B64B-D213E7DFCBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A27E22-5CBA-46E3-B64B-D213E7DFCBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A27E22-5CBA-46E3-B64B-D213E7DFCBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DB06AA-3FE1-465F-884E-DFBF094747D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DB06AA-3FE1-465F-884E-DFBF094747D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DB06AA-3FE1-465F-884E-DFBF094747D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DB06AA-3FE1-465F-884E-DFBF094747D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020C7395-E82B-41E1-B693-4F6E6605DB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020C7395-E82B-41E1-B693-4F6E6605DB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020C7395-E82B-41E1-B693-4F6E6605DB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020C7395-E82B-41E1-B693-4F6E6605DB90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -34,6 +70,11 @@ Global
 		{F03E7F2E-22DC-40C0-AFAE-A6AEE5D3EBD8} = {44F09FEA-E057-452B-B9FB-6493A3E9E2AC}
 		{1C739B29-E878-4129-BFBC-D6AB7AEAAA87} = {44F09FEA-E057-452B-B9FB-6493A3E9E2AC}
 		{F95E3DDB-92C4-4B6B-BF63-8CE9F33A2A09} = {44F09FEA-E057-452B-B9FB-6493A3E9E2AC}
+		{8949082C-11D7-47EC-9038-8AD04961DE6A} = {7BD39ADD-EE1F-46B4-9FC9-7FD92204C274}
+		{2B514585-DBB6-4B2C-A602-8CBD976C3D54} = {7BD39ADD-EE1F-46B4-9FC9-7FD92204C274}
+		{71A27E22-5CBA-46E3-B64B-D213E7DFCBEA} = {7BD39ADD-EE1F-46B4-9FC9-7FD92204C274}
+		{A1DB06AA-3FE1-465F-884E-DFBF094747D9} = {7BD39ADD-EE1F-46B4-9FC9-7FD92204C274}
+		{020C7395-E82B-41E1-B693-4F6E6605DB90} = {7BD39ADD-EE1F-46B4-9FC9-7FD92204C274}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9271483-96AD-4A46-8E0C-792AE97A4C3C}
